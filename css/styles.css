@@ -19,6 +19,9 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -109,37 +112,70 @@ a {
     color: #f4f4fd;
 }
 
+#h2-hid {
+    visibility: hidden;
+}
 
 
 
 
 .hone-section {
     background-color: #2e2f42;
+    padding: 188px 0 188px;
 }
 
 .hone-styles {
+    display: block;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 48px;
 }
 
 .sectionone-b {
+    display: block;
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
 }
 
 .sectionone-b:hover,
 .sectionone-b:focus {
     background: #404bbf;
 }
+
+.main-two-container {
+    padding: 120px 0 120px;
+}
+
+.ul-two {
+    display: inline-block;
+    display: flex;
+
+}
+
+.main-three-container {
+
+}
+
 
 .h-three-section {
     font-weight: 500;
@@ -179,7 +215,8 @@ a {
 }
 
 .page-li-three {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .p-three-section {
