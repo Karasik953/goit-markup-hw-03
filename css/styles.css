@@ -253,3 +253,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.page-footer {
+    padding: 100px 0;
+}
