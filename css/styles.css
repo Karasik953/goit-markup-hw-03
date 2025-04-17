@@ -169,6 +169,7 @@ img {
 .ul-two {
     display: inline-block;
     display: flex;
+    gap: 24px;
 
 }
 
@@ -195,6 +196,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .three-section {
