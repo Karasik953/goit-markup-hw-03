@@ -112,7 +112,7 @@ img {
     color: #f4f4fd;
 }
 
-#h2-hid {
+.h2-hid {
     visibility: hidden;
 }
 
@@ -172,7 +172,9 @@ img {
     gap: 24px;
 
 }
-
+.lishka {
+    width: calc((100% - 72px) / 4);
+}
 .features-section {
     padding: 120px 0
 }
@@ -199,7 +201,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .three-section {
