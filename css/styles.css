@@ -1,3 +1,4 @@
+/* глобальні стилі */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -22,6 +23,8 @@ a {
 img {
     display: block;
 }
+
+/* стилі для header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -127,7 +130,7 @@ img {
 
 
 
-
+/* 1 cекція */
 .hone-section {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -171,6 +174,8 @@ img {
     background: #404bbf;
 }
 
+/* 2 секція */
+
 .main-two-container {
     padding: 120px 0 120px;
 }
@@ -188,6 +193,17 @@ img {
     padding: 120px 0
 }
 
+/* 3 секція */
+
+.main-three-container {
+    padding: 120px 0 120px;
+}
+.ul-three {
+    display: flex;
+    gap: 24px
+}
+
+
 
 .h-three-section {
     font-weight: 500;
@@ -195,6 +211,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 
 }
 
@@ -224,12 +242,21 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.div-p-h {
+    padding: 32px 0
 }
 
 .page-li-three {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
 }
 
 .p-three-section {
@@ -237,7 +264,10 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
 }
+
+
 
 .p-footer {
     line-height: 1.5;
