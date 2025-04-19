@@ -302,6 +302,11 @@ img {
     border-top: none;
 }
 
+.serr {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
 .h-mini {
     font-weight: 500;
     font-size: 20px;
