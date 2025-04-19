@@ -326,3 +326,12 @@ img {
 .page-footer {
     padding: 100px 0;
 }
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.p-footer {
+    max-width: 264px
+}
